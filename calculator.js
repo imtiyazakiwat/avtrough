@@ -1,3 +1,7 @@
+caches.open('my-cache').then(function(cache) {
+  cache.add('/my-file.txt');
+});
+
 let calculation = "";
 let totalSum = 0;
 let totalBags = 0;
